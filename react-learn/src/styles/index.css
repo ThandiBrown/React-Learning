@@ -1,0 +1,164 @@
+
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  
+  font-family: 'Poppins', sans-serif;
+  background: white;
+}
+
+.cardContainer {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+  
+}
+
+.card{
+  background-color: rgb(249, 237, 222);
+  padding: 2%;
+  border-radius: 25px;
+  min-width: 30%;
+  max-width: 150px;
+  margin-bottom: 3%;
+}
+
+.image-container {
+  position: relative;
+}
+
+.available-activity {
+  width: 40px;
+  height: 40px;
+  position: absolute;
+  top: 10px;
+  left: 2px;
+}
+
+.unavailable-activity {
+  height: 40px;
+  position: relative;
+  left: -1000px;
+}
+
+.card p{
+  margin: 2%;
+}
+
+.card-image {
+  width: 100%;
+  border-radius: 9px;
+}
+
+.card-image2 {
+  width: 30px;
+  height: 30px;
+}
+
+.card-stats {
+  display: flex;
+  align-items: center;
+}
+
+
+.card-star {
+  height: 14px;
+}
+
+.gray {
+  color: rgb(135, 135, 135);
+  
+}
+
+.bold {
+  font-weight: bold;
+}
+
+.image-badge {
+  margin: 0;
+  padding: 0;
+  background-color: white;
+  border-radius: 5px;
+  text-align: center;
+  width: 90px;
+  position: absolute;
+  top: 10px;
+  left: 2px;
+}
+
+.events button{
+  display: block;
+}
+
+
+.state button{
+  display: block;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
